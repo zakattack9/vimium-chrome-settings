@@ -1,0 +1,1 @@
+Modified Nord theme from https://github.com/Foldex/vimium-dark-themes

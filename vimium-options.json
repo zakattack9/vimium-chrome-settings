@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "map h goBack\nmap l goForward\nmap o Vomnibar.activateInNewTab\nmap H scrollLeft\nmap L scrollRight\nmap O Vomnibar.activate",
+  "linkHintCharacters": "sdfjklewcmiogh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "a: https://www.amazon.com/s/?field-keywords=%s Amazon\ng: https://www.google.com/search?q=%s Google\ngm: https://www.google.com/maps?q=%s Google maps\nd: https://duckduckgo.com/?q=%s DuckDuckGo\ny: https://www.youtube.com/results?search_query=%s Youtube\nw: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# b: https://www.bing.com/search?q=%s Bing\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": ":root {\n  --padding: 10px;\n  --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n\n  --fg: #E5E9F0;\n  --bg: #2E3440;\n  --border: #3B4252;\n  --main-fg: #88C0D0;\n  --second-fg: #A3BE8C;\n  --accent-fg: #77cead;\n}\n\n/* -------- HINTS -------- */\n#vimiumHintMarkerContainer div.internalVimiumHintMarker, \n#vimiumHintMarkerContainer div.vimiumHintMarker {\n  background: var(--bg);\n  border: 1px solid var(--border);\n  box-shadow: var(--shadow);\n  padding: 3px 4px;\n}\n\n#vimiumHintMarkerContainer div span {\n  color: var(--main-fg);\n  text-shadow: none;\n}\n\n#vimiumHintMarkerContainer div > .matchingCharacter {\n  opacity: 0.3;\n}\n\n#vimiumHintMarkerContainer div > .matchingCharacter ~ span {\n  color: var(--main-fg);\n}\n\n/* -------- VOMNIBAR -------- */\n#vomnibar {\n  animation: show 200ms cubic-bezier(0, 0, 0.2, 1) forwards;\n  background: var(--bg);\n  border: none;\n  box-shadow: var(--shadow);\n  overflow: hidden;\n}\n\n/* Animate Slide in */\n@keyframes show {\n  0% {\n    opacity: 0;\n    transform: translateY(15px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n#vomnibar .vomnibarSearchArea,\n#vomnibar input {\n  color: var(--fg);\n  background: transparent;\n  border: none;\n  box-shadow: none;\n}\n\n#vomnibar .vomnibarSearchArea {\n  padding: var(--padding) 30px;\n}\n\n#vomnibar input {\n  padding: 0;\n}\n\n#vomnibar ul {\n  margin: 0;\n  padding: 0;\n  background: var(--bg);\n  border-top: 1px solid var(--border);\n}\n\n#vomnibar ul li:last-of-type {\n  padding-bottom: calc(var(--padding) + 4px);\n}\n\n#vomnibar li {\n  padding: var(--padding);\n  border-bottom: 1px solid var(--border);\n}\n\n#vomnibar li .vomnibarTopHalf,\n#vomnibar li .vomnibarBottomHalf {\n  padding: 3px 0;\n}\n\n#vomnibar li .vomnibarTopHalf {\n  display: flex;\n}\n\n#vomnibar li .vomnibarSource {\n  color: var(--second-fg);\n  font-weight: bold;\n}\n\n#vomnibar li em,\n#vomnibar li .vomnibarTitle {\n  color: var(--main-fg);\n  line-height: 1.1em;\n  width: 90%;\n}\n\n#vomnibar li .vomnibarUrl {\n  color: var(--fg);\n}\n\n#vomnibar li .vomnibarMatch {\n  color: var(--accent-fg);\n  font-weight: normal;\n}\n\n#vomnibar li .vomnibarTitle .vomnibarMatch {\n  color: var(--main-fg);\n}\n\n#vomnibar li.vomnibarSelected {\n  background-color: var(--border);\n}\n\n/* -------- HUD -------- */\ndiv.vimiumHUD {\n  background: var(--bg);\n  border: 1px solid var(--border);\n  box-shadow: var(--shadow);\n}\n\ndiv.vimiumHUD span#hud-find-input,\ndiv.vimiumHUD .vimiumHUDSearchAreaInner {\n  color: var(--fg);\n}\n\ndiv.vimiumHUD .hud-find {\n  background-color: transparent;\n  border: none;\n}\n\ndiv.vimiumHUD .vimiumHUDSearchArea {\n  background-color: transparent;\n}"
+}
