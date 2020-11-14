@@ -9,7 +9,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "map h goBack\nmap l goForward\nmap o Vomnibar.activateInNewTab\nmap H scrollLeft\nmap L scrollRight\nmap O Vomnibar.activate",
+  "keyMappings": "map h goBack\nmap l goForward\nmap o Vomnibar.activateInNewTab\nmap b Vomnibar.activateBookmarksInNewTab\n\nmap H scrollLeft\nmap L scrollRight\nmap O Vomnibar.activate\nmap B Vomnibar.activateBookmarks",
   "linkHintCharacters": "sdfjklewcmiogh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
